@@ -8,26 +8,98 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <h1>Submit Application</h1>
-    <p>Please fill and submit the form below so I can get back to you as soon as possible</p>
-    <form action="/success.html">
-        <div id="icon">
-            <a href="https://internship.zuri.team/" title="HNG logo"><img src="images/hngLogo.png" alt="HNG logo"></a>
-        </div>
-        <div class="container">
-            <!-- <div class="container"> -->
-                <label for="fullname"><strong>Full Name</strong></label>
-                <input type="text" placeholder="Enter Your Full Name" name="fullname" required>
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="text" placeholder="Enter E-mail" name="email" required>
-                <label for="password"><strong>Password</strong></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
-                <label for="resume"><strong>Upload resume</strong></label>
-                <input type="file" name="resume">
-    
-            <!-- </div> -->
-            <button type="submit"><strong>SUBMIT</strong></button>
-        </div>
-    </form>
+        <div class="resume">
+            <div class="resume__contact">
+                <div class="resume__contact--name">
+                    <h1 class="resume__heading">Nedu Robert</h1>
+                    <h4>Full Stack Developer</h4>
+                </div>
+                <div class="resume__contact--info">
+                    <div><span class="info">Github:</span> <a href="https://github.com/nedu">https://github.com/nedu</a>
+                    </div>
+                    <div><span class="info">Email:</span>
+                        <Link to="/contact">nedumrobert@gmail.com</Link>
+                    </div>
+                    <div><span class="info">Portfolio:</span> <a href="https://nedu.github.io/">nedu.github.io</a></div>
+                    <div><span class="info">LinkedIn:</span> <a
+                            href="https://www.linkedin.com/in/nedurobert/">https://www.linkedin.com/in/nedurobert/</a></div>
+                </div>
+            </div>
+            <div class="resume__profile">
+                <div class="resume__profile--name">
+                    <h1 class="resume__heading">Profile</h1>
+                </div>
+                <div class="resume__profile--info">
+                    <div>Highly motivated and demonstrated Full-Stack Developer.</div>
+                    <div>Fluent in designing and working with RESTful APIs. </div>
+                    <div>Effective at managing projects both independently and as a team player.</div>
+                    <div>Quick at adapting to new technologies and learning new skills.</div>
+                </div>
+            </div>
+            <div class="resume__projects">
+                <div class="resume__projects--name">
+                    <h1 class="resume__heading">Projects</h1>
+                </div>
+                <div class="resume__projects--info">
+                    <div class="project">
+                        <div class="project-info">
+                            <div><span class="info">Closet Roulette </span></div>
+                            <div><a href="https://www.closetroulette.com/">https://www.closetroulette.com/</a></div>
+                        </div>
+                        <div>Full Stack Developer on a team of five that built a digital closet that enables users to upload
+                            images of their outfits and transforms them into virtual attire.</div>
+                        <div>Utilized the MERN stack to build out the web application and used the Stripe API for
+                            onlinepayment processing.</div>
+                        <div>Implemented authentication and authorization using token based authentication and OAuth 2.0.
+                        </div>
+                        <div>Integrated the SendGrid API for delivering of emails to users.</div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <div><span class="info">Lambda Notes</span></div>
+                            <div><a href="https://lambda-notes-app.netlify.com/">https://lambda-notes-app.netlify.com/</a>
+                            </div>
+                        </div>
+                        <div>Built a Full Stack note taking web application using MERN that allows authenticated users to
+                            manage their notes.</div>
+                        <div>Incorporated REST architecture and authentication using Express.js, Node.js, Passport and
+                            MongoDB to manipulate notes data.</div>
+                        <div>Implemented markdown, searching, sorting and exporting functionality.</div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <div><span class="info">Random Quote Generator</span></div>
+                            <div><a href="https://nedu.github.io/RQG/">https://nedu.github.io/RQG/</a></div>
+                        </div>
+                        <div>Designed and developed a Random Quote Generator web application which displays to the user
+                            random quotes on the click of a button using JavaScript ES6+.</div>
+                        <div>Incorporated AJAX while utilizing a JSON-encoded, third party external API to fetch the quotes
+                            data.</div>
+                        <div>Integrated Twitter Web Intents to enable user to tweet out the quotes.</div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info">
+                            <div><span class="info">WikiSearch</span></div>
+                            <div><a href="https://nedu.github.io/WikiSearch/">https://nedu.github.io/WikiSearch/</a></div>
+                        </div>
+                        <div>Engineered a single-page web application in react to enable users search for articles on
+                            wikipedia.</div>
+                        <div>Utilizes the MediaWiki API to search for the user's query.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume__techskills">
+                <div class="resume__techskills--name">
+                    <h1 class="resume__heading">Skills</h1>
+                </div>
+                <div class="resume__techskills--info">
+                    <div><span class="info">Programming Languages: </span>JavaScript, Python</div>
+                    <div><span class="info">Frameworks & Libraries:</span> React, Redux, Node, Express, Mongoose, Django
+                    </div>
+                    <div><span class="info">Web Technologies:</span> HTML5, CSS3, AJAX, JSON</div>
+                    <div><span class="info">Databases:</span> MongoDB, MySQL, SQLite, PostgreSQL</div>
+                    <div><span class="info">Tools:</span> Git, Heroku</div>
+                </div>
+            </div>
 </body>
 </html>
