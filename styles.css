@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+form {
+  border: 1px solid sandybrown;
+}
+
+#icon img {
+  height: 50px;
+  width: 200px;
+}
+
+#icon {
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+input {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}

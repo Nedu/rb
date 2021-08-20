@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <h1>Submit Application</h1>
+    <p>Please fill and submit the form below so I can get back to you as soon as possible</p>
+    <form action="/success.html">
+        <div id="icon">
+            <a href="https://internship.zuri.team/" title="HNG logo"><img src="images/hngLogo.png" alt="HNG logo"></a>
+        </div>
+        <div class="container">
+            <!-- <div class="container"> -->
+                <label for="fullname"><strong>Full Name</strong></label>
+                <input type="text" placeholder="Enter Your Full Name" name="fullname" required>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" placeholder="Enter E-mail" name="email" required>
+                <label for="password"><strong>Password</strong></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <label for="resume"><strong>Upload resume</strong></label>
+                <input type="file" name="resume">
+    
+            <!-- </div> -->
+            <button type="submit"><strong>SUBMIT</strong></button>
+        </div>
+    </form>
+</body>
+</html>
